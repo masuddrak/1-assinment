@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainSection{
+    display: flex;
+    width: 1600px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.mainContan{
+    width: 50%;
+}
+.mainContan h1{
+    font-size: 45px;
+    padding-left: 5px;
+    border-left: 3px solid #C03067;
+}
+.mainContan h1 span{
+    color: #C03067;
+}
+.mainContan button{
+    border: none;
+    color: white;
+    background-color: #C03067 ;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.mainContan small{
+    display: block;
+    margin-top: 20px;
+}
+.mainImg{
+ width:50%;
+ text-align: right;
+}
+.mainImg img{
+    width: 60%;
+}
+/*---------mission--------*/
+.missionTitl{
+    width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.missionTitl h1{
+    font-size: 45px;
+}
+.missionTitl h1 span{
+    color: #C03067;
+}
+.mission{
+    display: flex;
+    width: 1600px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.missionCard{
+    width: 400px;
+    height: 300px;
+    background-color: #EDF5F6;
+    padding: 10px;
+    border-radius: 10px;
+}
+#vision{
+    background-color: #FFEEEE;
+}
+#glas{
+    background-color: #FFF4D6;
+}
+.missionCard img{
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+/*------------develop--------*/
+#developImg{
+    width: 30%;
+    text-align: left;
+}
+#developImg img{
+    width: 100%;
+    height: 100%;
+}
+#developContan{
+    width: 63%;
+}
+#developContan h1{
+    border: none;
+    padding-left: 0px;
+}
+/*-----------comunity section---------------*/
+#comunityImg {
+    width: 45%;
+    
+}
+
+
+
+
+
+
+
+/*-----------footer------*/
+.footerSect{
+    background-color: #0B0D17;
+}
+.footContan{
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+}
+.footContan h1{
+    font-style:italic;
+    font-size: 45px;
+}
+.footContan h1 span{
+    color: #C03067;
+}
